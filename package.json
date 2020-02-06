@@ -1,0 +1,25 @@
+{
+  "name": "generate-webpack-cli",
+  "version": "1.0.0",
+  "description": "快速生成 webpack 模板 cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "g-webpack-cli": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Weibozzz/generate-webpack-cli"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "handlebars": "^4.5.1",
+    "ora": "^4.0.2"
+  }
+}
